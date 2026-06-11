@@ -17,7 +17,10 @@
     "waitForNetworkIdle": false,
     "notes": [
       "Public synthetic-data demo. No auth, account creation, external data, payment, or destructive action is required.",
-      "The first workflow proves the core value: choose a relationship goal, add readiness context, analyze a seeded synthetic conversation, and verify the resulting compatibility report."
+      "The first workflow proves the core value: choose a relationship goal, add readiness context, analyze a seeded synthetic conversation, and verify the resulting compatibility report.",
+      "Smallest wedge: CommitIQ Coach Review Report, a one-conversation prep artifact for dating coaches and relationship educators before a paid session.",
+      "Buyer: dating coaches and relationship educators. User/community: active daters at the 3-month checkpoint, reachable through coach audiences, dating communities, workshops, and paid groups.",
+      "Scope estimate: using AP/Pew's 3-in-10 U.S. adult dating-site/app usage signal, 1% of U.S. dating-site/app users buying one $19 report would exceed $14M in one-time report revenue."
     ]
   },
   "workflows": [
@@ -165,6 +168,11 @@
           "Market signal",
           "Smallest wedge",
           "Smallest Wedge: CommitIQ Coach Review Report",
+          "Buyer",
+          "User",
+          "Workflow",
+          "Why this wedge works first",
+          "Reach channel",
           "Value before platform",
           "Scope estimate",
           "Production-ready",
@@ -259,6 +267,11 @@
           "CommitIQ",
           "Know Before You Commit",
           "authRequired",
+          "smallestWedge",
+          "CommitIQ Coach Review Report",
+          "scopeEstimate",
+          "valueBeforePlatform",
+          "repositoryEvidence",
           "rubricEvidence",
           "technicalExecutionAndDemoProof"
         ],
