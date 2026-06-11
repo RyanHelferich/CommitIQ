@@ -1,0 +1,133 @@
+{
+  "project": "CommitIQ",
+  "tagline": "Know Before You Commit™",
+  "team": "LV Strip Scripts",
+  "event": "OCI Hackathon #282",
+  "demoUrl": "https://commitiq-one.vercel.app",
+  "demoSteps": [
+    "Open the demo URL (homepage).",
+    "Select a relationship goal — e.g. 'Long-term relationship'.",
+    "Click the 'The 3-Month Check-In' sample conversation card.",
+    "Leave all four synthetic context toggles enabled.",
+    "Click 'Analyze Compatibility'.",
+    "Review: Compatibility Summary card, personalization panel, 4-level spectrum signals, and conversation starters.",
+    "Open the Evidence Timeline to see which messages triggered each signal.",
+    "Visit /judge for the full rubric evidence map."
+  ],
+  "authRequired": false,
+  "framework": {
+    "name": "3×3×3 Dating Rule",
+    "description": "CommitIQ is built for the 3-month checkpoint: 3 months of dating + 3 serious conversations + 3 shared life moments = enough real data to understand compatibility patterns."
+  },
+  "compatibilitySpectrum": {
+    "strength": "A consistent behavior that actively builds long-term relationship health",
+    "compatibility": "Alignment on values, goals, or communication patterns",
+    "discuss": "A real difference or dynamic worth naming and exploring openly",
+    "concern": "A pattern worth paying attention to and discussing directly"
+  },
+  "rubricEvidence": {
+    "demandRealityAndProblemSeverity": {
+      "weight": "25%",
+      "user": "People actively dating who want to understand compatibility patterns before investing months of time and emotional energy in the wrong relationship — specifically at the 3-month decision point.",
+      "currentWorkaround": "Ask biased friends, scroll back through conversations, search Reddit advice threads, or ignore patterns until the relationship becomes painful.",
+      "pain": "Friends can't read patterns across weeks of messages. Love bombing, indirect conflict, and lifestyle mismatches look like isolated moments in the moment. Bad relationships cost months or years of emotional health, time, and money.",
+      "quantifiedOutcome": "CommitIQ reduces the 30-60 minute screenshot scroll / group-chat advice loop to an under-2-minute structured report with evidence, topics to discuss, and next questions.",
+      "successKpi": "Target pilot KPI: at least 80% of beta users generate a report and identify 3 topics or questions they would discuss next; coach mode measures agreement with the top 3 surfaced topics.",
+      "productProof": "CommitIQ transforms a real-sounding 3-month check-in conversation into a structured compatibility report with 4-level spectrum signals, a Compatibility Summary card, and personalized conversation starters — in under 10 seconds."
+    },
+    "targetCustomerAndMarketScope": {
+      "weight": "20%",
+      "firstUser": "Active daters 25–45 who want a structured, private way to understand compatibility patterns — specifically at the 3-month decision point.",
+      "firstBuyer": "Dating coaches and relationship educators who already review client screenshots and need repeatable, privacy-safe reports for sessions, workshops, and paid digital products.",
+      "adjacentUsers": [
+        "Dating coaches reviewing client conversations",
+        "Relationship educators using scenarios for teaching",
+        "Re-entering daters post-divorce or long-term relationship",
+        "Safety-focused communities helping people recognize manipulation",
+        "Dating platforms wanting opt-in compatibility features"
+      ],
+      "marketSignal": "AP/Pew reports 3 in 10 U.S. adults have used a dating site or app, more than half of adults under 35 have tried online dating, and 48% of users reported at least one unwanted behavior.",
+      "marketSource": "https://apnews.com/article/online-dating-valentines-day-pew-study-romance-27e84e1e14fbe092cb9ff69e41a47ffc",
+      "reachableWedge": "Start with 50 beta daters and 10 coach/educator interviews from online dating communities, re-entering-dating groups, and young professional communities before pursuing platform partnerships.",
+      "whyItMatters": "Relationship uncertainty is near-universal and recurring. Dating app usage is in the hundreds of millions globally. No structured private tool exists for compatibility pattern analysis."
+    },
+    "solutionFitAndProductDesign": {
+      "weight": "20%",
+      "before": "User spends 30-60 minutes rereading conversations, asks a biased friend, gets inconsistent advice, or misses patterns until it's too late.",
+      "after": "User selects or pastes a conversation, sets their relationship goal, optionally completes a self-assessment, and gets an under-2-minute Compatibility Summary card with Strengths + Topics to Discuss, a personalization panel, 4-level spectrum signals, and conversation starters for every flagged topic.",
+      "smallestWedge": "A privacy-safe relationship review report for one conversation. It creates value for a dater, coach, or educator before CommitIQ needs real dating-platform integrations.",
+      "keyDesignChoices": [
+        "Goal selector prioritizes topics by relationship type",
+        "Dating Readiness Self-Assessment visibly personalizes the report",
+        "Synthetic context toggles visibly affect the report",
+        "4-level spectrum replaces binary red/green labels with nuance",
+        "Conversation questions for every signal — goal is better conversations, not verdicts",
+        "3×3×3 Framework positions CommitIQ at the natural decision checkpoint",
+        "No login required",
+        "Works on mobile",
+        "Evidence timeline maps every signal to the exact message"
+      ]
+    },
+    "technicalExecutionAndDemoProof": {
+      "weight": "20%",
+      "stack": "React 19, TypeScript, Vite 5, React Router 7, plain CSS, deterministic local AI analysis engine",
+      "deployment": "Vercel static site — HTTPS auto-provisioned, SPA routing via vercel.json rewrite, global CDN",
+      "authRequired": false,
+      "engineType": "16-category behavioral signal detector with 4-level spectrum classification, goal-aware topic prioritization, self-assessment personalization, synthetic context insights, and AI-framed conversation starters. Runs entirely in the browser. Deterministic — same input always returns same output. No external API dependency.",
+      "productionReady": [
+        "Static HTTPS deployment on Vercel",
+        "No login barrier",
+        "No backend dependency for the core demo",
+        "Local deterministic analysis engine",
+        "React Router SPA rewrites",
+        "Stable verifier selectors for the AI judge",
+        "Public /judge and /judge-evidence.json evidence routes"
+      ],
+      "hackathonGrade": [
+        "Heuristic signal detector",
+        "Synthetic-only sample data",
+        "No clinical outcome validation",
+        "No accounts or payments",
+        "No real dating-platform integrations yet"
+      ],
+      "repositoryEvidence": "Attach the public repository URL in the submission form so judges can verify implementation depth. This is the main remaining technical-score gap.",
+      "newFeatures": [
+        "Goal Selector — 5 relationship goal types that prioritize the analysis",
+        "Dating Readiness Self-Assessment — check your own readiness before evaluating a partner and feed it into the result",
+        "Synthetic context toggles — add visible context prompts to the result",
+        "3×3×3 Framework hero section",
+        "Compatibility Summary card — replaces numeric score with headline + strengths + topics",
+        "Questions to Ask — 2-3 conversation starters on every signal",
+        "4-level spectrum — strength / compatibility / discuss / concern"
+      ],
+      "syntheticDatasets": [
+        "The 3-Month Check-In — Jordan & Alex milestone conversation (strong compatibility)",
+        "Aligned on the Big Things — Morgan & Riley shared values discovery (excellent compatibility)",
+        "Growing Through Differences — Casey & Drew navigating lifestyle & location gaps (promising)"
+      ],
+      "publicRoutes": ["/", "/results", "/judge", "/privacy", "/methodology", "/judge-evidence.json", "/sitemap.xml"]
+    },
+    "differentiationAndInvestmentReadiness": {
+      "weight": "15%",
+      "differentiation": "First compatibility tool built around the 3×3×3 dating checkpoint, with a nuanced 4-level spectrum, goal-aware analysis, built-in conversation starters, and a pre-analysis self-assessment. All runs locally — no data leaves the device.",
+      "impactMetric": "Reduce time-to-first-actionable-question to under 2 minutes; next pilot measures 80% report completion, top-3 topic agreement with coaches, and willingness to pay for a coach-ready report.",
+      "moatHypothesis": [
+        "Labeled relationship compatibility pattern dataset",
+        "Coach workflow integrations",
+        "Dating platform API partnerships",
+        "Privacy-first local analysis differentiates from cloud competitors"
+      ],
+      "whyItGetsBigger": "The initial coach/user report wedge expands into paid coach dashboards, longitudinal relationship check-ins, opt-in dating platform safety/compatibility features, and a labeled compatibility-pattern dataset.",
+      "nextVersion": "Opt-in real data with local-only privacy architecture, coach mode for professionals, longitudinal tracking over multiple 3×3×3 checkpoints, willingness to pay study with 50 beta users and 10 coach/educator interviews"
+    }
+  },
+  "safetyBoundaries": [
+    "All conversations in the demo are synthetic — no real private data",
+    "No bank account linking, social media scraping, or dating app access",
+    "No login, auth, or user accounts",
+    "Pasted text is processed in-browser and never transmitted",
+    "Does not diagnose abuse or predict relationship outcomes",
+    "Does not provide emergency safety services",
+    "Crisis line reference visible on every page that accepts input"
+  ]
+}
