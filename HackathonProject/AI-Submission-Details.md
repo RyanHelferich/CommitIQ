@@ -4,7 +4,7 @@ Team: LV Strip Scripts
 Event: OCI Hackathon #282
 
 Paste these into the submission form fields exactly as written.
-Replace `[REPO-URL]` once you have it. The live demo URL is https://commitiq-one.vercel.app
+The live demo URL is https://commitiq-one.vercel.app and the repository URL is https://github.com/RyanHelferich/CommitIQ
 
 ---
 
@@ -16,9 +16,9 @@ We built CommitIQ — Know Before You Commit™, a synthetic-data-only relations
 
 ## Who has this problem?
 
-The first user is an active dater age 25-45 who is deciding whether to continue, deepen, or exit a relationship around the 3-month checkpoint. AP's coverage of Pew Research dating data reports that 3 in 10 U.S. adults have used a dating site or app, more than half of adults under 35 have tried online dating, and 48% of users reported at least one unwanted behavior. That makes the problem large, recurring, and emotionally expensive: people are making high-stakes relationship decisions with scattered screenshots, biased friend advice, and incomplete memory.
+The first user is an active dater age 25-45 who is deciding whether to continue, deepen, or exit a relationship around the 3-month checkpoint. AP's coverage of Pew Research dating data reports that 3 in 10 U.S. adults have used a dating site or app, more than half of adults under 35 have tried online dating, and 48% of users reported at least one unwanted behavior. That makes the problem large, recurring, and emotionally expensive: people are making high-stakes relationship decisions with scattered screenshots, biased friend advice, and incomplete memory. As a concrete scope estimate, if only 1% of U.S. dating-site/app users bought one $19 compatibility review, the first consumer wedge would represent more than $14M in one-time report revenue before subscriptions, coach tools, or platform partnerships.
 
-The first buyer wedge is dating coaches and relationship educators who already review client conversations manually and need a repeatable, privacy-safe way to structure sessions. The first community wedge is active daters in online dating communities, re-entering-dating groups, and young professional communities. Today they usually scroll through screenshots manually, ask friends for opinions, search online for relationship advice, or ignore the pattern until the relationship becomes painful. CommitIQ gives that same audience a repeatable report they can use to ask better questions instead of chasing a binary verdict.
+The first buyer wedge is dating coaches and relationship educators who already review client conversations manually and need a repeatable, privacy-safe way to structure sessions. This market is reachable because coaches already acquire customers through TikTok, Instagram, Substack, workshops, paid communities, and one-on-one sessions where conversation screenshots are a normal input. The first community wedge is active daters in online dating communities, re-entering-dating groups, and young professional communities. Today they usually scroll through screenshots manually, ask friends for opinions, search online for relationship advice, or ignore the pattern until the relationship becomes painful. CommitIQ gives that same audience a repeatable report they can use to ask better questions instead of chasing a binary verdict.
 
 ---
 
@@ -26,7 +26,9 @@ The first buyer wedge is dating coaches and relationship educators who already r
 
 Before CommitIQ, the user spends 30-60 minutes rereading messages, asking a friend, getting inconsistent advice, or missing early patterns until the relationship causes real harm. After CommitIQ, they select or paste a synthetic chat, pick a relationship goal (long-term relationship, marriage-minded, casual dating, exploring compatibility, or re-entering after a break), and receive a structured report in under 2 minutes: a Compatibility Summary card with headline, key strengths, and topics to discuss; a visible personalization panel showing source type, synthetic context signals, and self-assessment impact; a 16-category behavioral signal breakdown across a 4-level spectrum; and tailored conversation starters for every flagged signal.
 
-The smallest wedge is not a full dating platform. It is a privacy-safe "relationship review report" for one conversation that a dater, coach, or educator can use before a hard conversation. The most important demo workflow is selecting one of the three sample conversations ("The 3-Month Check-In," "Aligned on the Big Things," or "Growing Through Differences"), choosing a relationship goal, optionally completing the self-assessment, and clicking "Analyze Compatibility." The app shows "why this matters" for each signal so users understand the reasoning, not just the verdict. Pilot success metrics are: report generated in under 2 minutes, user identifies 3 topics or questions they would discuss next, and coach/educator review agrees with the top 3 topics surfaced by CommitIQ.
+The smallest wedge is **CommitIQ Coach Review Report**: a privacy-safe one-conversation report for dating coaches and relationship educators. The coach asks a client to bring one conversation before a session; CommitIQ turns it into a one-page prep artifact with the top 3 topics to discuss, evidence snippets, readiness context, and 6-9 coachable questions. This delivers value before any dating-platform integration, account system, payment flow, or large model-training loop because the coach can use the report immediately in a paid session.
+
+The most important demo workflow is selecting one of the three sample conversations ("The 3-Month Check-In," "Aligned on the Big Things," or "Growing Through Differences"), choosing a relationship goal, optionally completing the self-assessment, and clicking "Analyze Compatibility." The app shows "why this matters" for each signal so users understand the reasoning, not just the verdict. Pilot success metrics are: report generated in under 2 minutes, user identifies 3 topics or questions they would discuss next, coach/educator review agrees with the top 3 topics surfaced by CommitIQ, and a coach can reuse the report as a client-session prep artifact without manual screenshot sorting.
 
 ---
 
@@ -46,15 +48,13 @@ Production-ready pieces: public HTTPS deployment, no login barrier, no backend d
 
 ## Repo URL
 
-`https://[REPO-URL]`
-
-Attach the public repository URL in the submission form if available. Repository evidence is the main remaining technical-score gap called out by the judge.
+`https://github.com/RyanHelferich/CommitIQ`
 
 ---
 
 ## Extra Notes (paste into the "extra notes" field if available)
 
-This is a synthetic-data-only demo. Judges do not need auth, login, or test credentials. The key outcome is reducing a 30-60 minute screenshot/manual-advice loop into an under-2-minute structured report with 3 concrete topics or questions to discuss next. The first buyer wedge is dating coaches and relationship educators; the first user wedge is active daters around the 3-month decision point. To verify the core workflow: open the demo URL, choose a relationship goal, optionally complete the self-assessment, select any sample conversation, leave or adjust the synthetic context toggles, and click "Analyze Compatibility." The `/judge` page contains the full rubric evidence map and the `/judge-evidence.json` file contains the same facts in machine-readable form. Attach the repository URL in the form if available; that is the remaining evidence item for the Technical Execution category.
+This is a synthetic-data-only demo. Judges do not need auth, login, or test credentials. The key outcome is reducing a 30-60 minute screenshot/manual-advice loop into an under-2-minute structured report with 3 concrete topics or questions to discuss next. The smallest wedge is CommitIQ Coach Review Report: a one-conversation prep artifact for dating coaches and relationship educators who already review client screenshots. The first user wedge is active daters around the 3-month decision point. A concrete scope estimate: using AP/Pew's "3 in 10 U.S. adults" dating-site/app usage signal, 1% of U.S. dating-site/app users buying one $19 report would exceed $14M in initial one-time report revenue. To verify the core workflow: open the demo URL, choose a relationship goal, optionally complete the self-assessment, select any sample conversation, leave or adjust the synthetic context toggles, and click "Analyze Compatibility." The `/judge` page contains the full rubric evidence map and the `/judge-evidence.json` file contains the same facts in machine-readable form. Repository: https://github.com/RyanHelferich/CommitIQ
 
 ---
 
@@ -161,6 +161,9 @@ Paste this into the AI Judge verification instructions field:
           "First buyer",
           "Market signal",
           "Smallest wedge",
+          "Smallest Wedge: CommitIQ Coach Review Report",
+          "Value before platform",
+          "Scope estimate",
           "Production-ready",
           "Hackathon-grade",
           "Impact metric",

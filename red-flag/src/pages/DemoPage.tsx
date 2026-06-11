@@ -95,7 +95,7 @@ export function DemoPage() {
           </button>
         </div>
         <div className="synthetic-banner">
-          ⚑ This demo uses synthetic data only. Do not paste real private conversations.
+          Synthetic demo only. Use the sample conversations for judging; pasted text stays in your browser.
         </div>
       </div>
 

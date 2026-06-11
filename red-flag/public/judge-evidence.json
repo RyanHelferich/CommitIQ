@@ -15,6 +15,15 @@
     "Visit /judge for the full rubric evidence map."
   ],
   "authRequired": false,
+  "smallestWedge": {
+    "name": "CommitIQ Coach Review Report",
+    "buyer": "Dating coaches and relationship educators who already review client screenshots before sessions, workshops, and paid digital products.",
+    "user": "Active daters at the 3-month checkpoint who need 3 concrete topics or questions before deciding whether to deepen, slow down, or exit a relationship.",
+    "workflow": "Client brings one conversation. Coach runs CommitIQ. In under 2 minutes, the coach gets a one-page prep artifact with top 3 topics, evidence snippets, readiness context, and 6-9 coachable questions.",
+    "whyThisWedgeWorksFirst": "It delivers paid-session value before CommitIQ needs dating-platform integrations, accounts, payments, or a large proprietary dataset.",
+    "reachChannel": "Coaches and educators already sell through TikTok, Instagram, Substack, workshops, paid communities, and one-on-one sessions where screenshots are a common input.",
+    "scopeEstimate": "AP/Pew reports 3 in 10 U.S. adults have used dating sites or apps. If 1% of U.S. dating-site/app users bought one $19 report, the initial one-time report wedge would exceed $14M before subscriptions or coach dashboards."
+  },
   "framework": {
     "name": "3×3×3 Dating Rule",
     "description": "CommitIQ is built for the 3-month checkpoint: 3 months of dating + 3 serious conversations + 3 shared life moments = enough real data to understand compatibility patterns."
@@ -49,13 +58,15 @@
       "marketSignal": "AP/Pew reports 3 in 10 U.S. adults have used a dating site or app, more than half of adults under 35 have tried online dating, and 48% of users reported at least one unwanted behavior.",
       "marketSource": "https://apnews.com/article/online-dating-valentines-day-pew-study-romance-27e84e1e14fbe092cb9ff69e41a47ffc",
       "reachableWedge": "Start with 50 beta daters and 10 coach/educator interviews from online dating communities, re-entering-dating groups, and young professional communities before pursuing platform partnerships.",
+      "scopeEstimate": "Using the AP/Pew 3-in-10 U.S. adult dating-site/app usage signal, 1% of U.S. dating-site/app users buying one $19 report would exceed $14M in initial one-time report revenue.",
       "whyItMatters": "Relationship uncertainty is near-universal and recurring. Dating app usage is in the hundreds of millions globally. No structured private tool exists for compatibility pattern analysis."
     },
     "solutionFitAndProductDesign": {
       "weight": "20%",
       "before": "User spends 30-60 minutes rereading conversations, asks a biased friend, gets inconsistent advice, or misses patterns until it's too late.",
       "after": "User selects or pastes a conversation, sets their relationship goal, optionally completes a self-assessment, and gets an under-2-minute Compatibility Summary card with Strengths + Topics to Discuss, a personalization panel, 4-level spectrum signals, and conversation starters for every flagged topic.",
-      "smallestWedge": "A privacy-safe relationship review report for one conversation. It creates value for a dater, coach, or educator before CommitIQ needs real dating-platform integrations.",
+      "smallestWedge": "CommitIQ Coach Review Report: one conversation becomes a one-page prep artifact with top 3 topics, evidence snippets, readiness context, and 6-9 coachable questions.",
+      "valueBeforePlatform": "The coach can use the report immediately in a paid session without platform integrations, account systems, payments, or real-data partnerships.",
       "keyDesignChoices": [
         "Goal selector prioritizes topics by relationship type",
         "Dating Readiness Self-Assessment visibly personalizes the report",
@@ -90,7 +101,7 @@
         "No accounts or payments",
         "No real dating-platform integrations yet"
       ],
-      "repositoryEvidence": "Attach the public repository URL in the submission form so judges can verify implementation depth. This is the main remaining technical-score gap.",
+      "repositoryEvidence": "https://github.com/RyanHelferich/CommitIQ",
       "newFeatures": [
         "Goal Selector — 5 relationship goal types that prioritize the analysis",
         "Dating Readiness Self-Assessment — check your own readiness before evaluating a partner and feed it into the result",
@@ -117,7 +128,7 @@
         "Dating platform API partnerships",
         "Privacy-first local analysis differentiates from cloud competitors"
       ],
-      "whyItGetsBigger": "The initial coach/user report wedge expands into paid coach dashboards, longitudinal relationship check-ins, opt-in dating platform safety/compatibility features, and a labeled compatibility-pattern dataset.",
+      "whyItGetsBigger": "The initial Coach Review Report wedge expands into paid coach dashboards, longitudinal relationship check-ins, opt-in dating platform safety/compatibility features, and a labeled compatibility-pattern dataset.",
       "nextVersion": "Opt-in real data with local-only privacy architecture, coach mode for professionals, longitudinal tracking over multiple 3×3×3 checkpoints, willingness to pay study with 50 beta users and 10 coach/educator interviews"
     }
   },
